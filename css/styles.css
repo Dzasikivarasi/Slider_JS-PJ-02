@@ -1,0 +1,116 @@
+body {
+    background-color: #131313;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 107px 134px 123px;
+}
+
+.project_name {
+    display: flex;
+    flex-direction: row;
+    gap: 60.5px;
+    width: 482px;
+    margin-left: 492px;
+}
+
+.project_container {
+    margin: 40px 0 125px;
+    display: flex;
+    gap: 50px;
+}
+
+.project_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 442px;
+    height: 482px;
+}
+
+.project_description-parameters {
+    height: 33.4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 65px);
+    gap: 34px 64px;
+}
+
+.project_picture-controls {
+    margin-top: 80px;
+}
+
+.project_picture-controls {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.control-dots {
+    display: flex;
+    gap: 17.5px;
+}
+
+.control-dots svg {
+    width: 90%;
+    height: 90%;
+}
+
+.project_picture {
+    position: relative;
+    width: 679px;
+    height: 482px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.project_picture img {
+    width: 100%;
+    height: 100%;
+    max-height: 482px;
+    max-width: 679px;
+    object-fit: cover;
+    /* display: none; */
+}
+
+p.project_name-item {
+    white-space: nowrap;
+    margin: 0 0 10px;
+    cursor: pointer;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    width: 253px;
+    background: url(../img/decor-line.svg) no-repeat right 75%;
+}
+
+.project_description p {
+    margin: 34px 0px 42px;
+    max-width: 570px;
+}
+
+.project_description-parameters p {
+    margin: 10px 0 0;
+    max-width: 115px;
+}
+
+.active {
+    color: #E3B873;
+    border-bottom: solid 1px #E3B873;
+}
+
+.control-dots svg path {
+    fill: rgba(255, 255, 255, 0.30);
+}
+
+svg.active-dot path {
+    fill: rgba(255, 255, 255, 1);
+}

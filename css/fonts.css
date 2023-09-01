@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Yeseva One"),
+    url("../fonts/YesevaOne-Regular.woff2") format("woff2"),
+    url("../fonts/YesevaOne-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Sans"),
+    url("../fonts/NunitoSans_7pt_Condensed-Regular.woff2") format("woff2"),
+    url("../fonts/NunitoSans_7pt_Condensed-Regular.woff") format("woff");
+}
+
+body {
+  font-style: normal;
+  font-weight: 400;
+}
+
+p.project_name-item {
+  font-family: "Yeseva One", serif;
+  color: rgba(255, 255, 255, 0.30);
+  font-size: 14px;
+  line-height: 138.6%;
+}
+
+h1,
+h2 {
+  font-family: "Yeseva One", serif;
+  color: #E3B873;
+  line-height: 138.6%;
+}
+
+h1 {
+  font-size: 27px;
+  letter-spacing: -1.89px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.project_description p {
+  color: #FFF;
+  font-size: 14px;
+  font-family: Nunito Sans, sans-serif;
+  line-height: 190.96%;
+}
+
+.project_description-parameters p {
+  color: #FFF;
+  font-family: Nunito Sans;
+  font-size: 13px;
+  line-height: 163.68%;
+}
+
+p.active {
+  color: #E3B873;
+}
